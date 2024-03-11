@@ -11,6 +11,8 @@ Webservice with JavaEE :
 			or
 			Wsimport -p package -keep urlwithwsdl
 
+			eg:
+			wsimport -keep http://localhost:8085/credits?wsdl
 			Import properly in the generated classes if any shows error
 			main>> create service object then get business class out of serice using port
 			Finally call desired method in the server
